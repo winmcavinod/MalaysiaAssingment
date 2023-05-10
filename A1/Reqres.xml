@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<com.test.homePageTest name="Reqres Test Suite">
+    <com.test.homePageTest name="Reqres Test">
+        <classes>
+            <class name="com.test.homePageTest.ReqresStepDefinition/"/>
+        </classes>
+        <packages>
+            <package name="com.example">
+                <include name="**/*.feature"/>
+            </package>
+        </packages>
+    </com.test.homePageTest>
+</com.test.homePageTest>
