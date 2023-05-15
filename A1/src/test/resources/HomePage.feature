@@ -7,3 +7,6 @@ Feature: Testing Reqres Application
     And I verify supportPage button is present
     And I click on supportpage and verify onetime and monthly report and upgrade details are present
     
+    Given I click on single user not found
+    Then I verify request and response
+    

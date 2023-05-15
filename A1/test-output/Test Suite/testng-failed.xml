@@ -3,11 +3,11 @@
 <suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Tests(failed)">
     <classes>
-      <class name="com.test.outputfileVerification.outputfileVerificationTest">
+      <class name="com.test.specAndSchemaTest.APIspecAndSchemaTest">
         <methods>
-          <include name="testExcelFiles"/>
+          <include name="verifyAPIResponse"/>
         </methods>
-      </class> <!-- com.test.outputfileVerification.outputfileVerificationTest -->
+      </class> <!-- com.test.specAndSchemaTest.APIspecAndSchemaTest -->
     </classes>
   </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

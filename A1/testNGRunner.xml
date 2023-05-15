@@ -4,8 +4,8 @@
     <classes>
     
       
-      <class name="com.test.outputfileVerification.outputfileVerificationTest"/>
       
+      <class name="com.test.specAndSchemaTest.APIspecAndSchemaTest"/>
     </classes>
   </test>
 </suite>
